@@ -62,15 +62,19 @@
   text-decoration-skip-ink: none;
 }
 
-.no-link-underline {
-  text-decoration: none;
+.cover {
+  position: relative;
+  height: auto;
+  height: 757px;
 }
 
-.cover {
-  z-index: 0;
+.cover-img {
+  position: absolute;
+  object-fit: contain;
 }
 
 .overlay {
+  position: absolute;
   width: 1100px;
   height: 609px;
   z-index: 1;

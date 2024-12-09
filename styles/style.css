@@ -39,8 +39,6 @@ body {
   list-style: none;
 }
 
-.header__link_active {
-}
 
 .header__link {
   text-decoration: none;
@@ -105,10 +103,6 @@ body {
   padding-bottom: 43px;
   padding-top: 150px;
   padding-left: 78px;
-}
-
-.cover__description {
-  align-items: center;
 }
 
 .bet-button {
@@ -210,7 +204,7 @@ body {
   background-size: cover;
 }
 
-.card_type_picture  {
+.card_type_picture {
   background-image: url(../images/card-lot-03.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -269,10 +263,6 @@ body {
   width: 100%;
 }
 
-.about__title {
-  margin-top: 95px;
-}
-
 .about__column {
   display: flex;
   flex-direction: column;
@@ -328,6 +318,7 @@ body {
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
+  margin-top: 95px;
 }
 
 .footer {
@@ -353,9 +344,6 @@ body {
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-}
-
-.footer__menu {
 }
 
 .footer__menu-list-item {

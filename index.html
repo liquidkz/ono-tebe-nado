@@ -41,8 +41,8 @@
         </address>
       </div>
     </header>
-    <div class="cover overlay">
-      <img class="cover-img" src="./images/cover.jpg" alt="cover" />
+    <main class="cover">
+      <div class="overlay"></div>
       <div class="cover__title">
         <h1>
           <span class="cover-title-txt aligned-text"
@@ -66,33 +66,24 @@
           <a class="header__link" href="#"> Сделать ставку</a>
         </div>
       </div>
-    </div>
-    <div class="lots">
-      <div class="lots__heading">Лоты</div>
+    </main>
+    <section class="lots">
+      <h3 class="lots__heading">Лоты</h3>
       <div class="lots__card-list">
-        <div class="card overlay">
-          <img
-            class="card_img"
-            src="./images/f9bad749215d12244cdd86581803c147.jpg"
-            alt=""
-          />
-          <div class="card__title card__title_margin_bot">
+        <div class="card card_type_film">
+          <div class="overlay"></div>
+          <h4 class="card__title card__title_margin_bot">
             Фильм режиссёра, который бросил киношколу
-          </div>
+          </h4>
           <div class="card__text">
             Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка,
             если бы вы не знали, что режиссёр — Пол Томас Андерсон?
           </div>
         </div>
-        <div class="card overlay">
-          <img
-            src="./images/card-lot-02.jpg"
-            alt="card image"
-            class="card_img"
-          />
-          <div class="card__title">
+        <div class="card card_type_book">
+          <h4 class="card__title">
             Книга, где описан один скучный день из жизни рекламного агента
-          </div>
+          </h4>
           <div class="card__text">
             Объёмом почти в тысячу страниц. Иногда без знаков препинания и с
             переходами на древнеанглийский. В ней одновременно рассказывается о
@@ -101,15 +92,10 @@
             бы вы поставили на «Улисса» Джеймса Джойса?
           </div>
         </div>
-        <div class="card overlay">
-          <img
-            src="./images/card-lot-03.jpg"
-            alt="card image"
-            class="card_img"
-          />
-          <div class="card__title">
+        <div class="card card_type_picture">
+          <h4 class="card__title">
             Картина, которую повторит даже 5-летний сын маминой подруги
-          </div>
+          </h4>
           <div class="card__text card__text_margin_top">
             Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то
             похожее на инфузорию-туфельку. Никаких полей, лесов, котиков...
@@ -121,8 +107,8 @@
       <div class="lots__look-more-link">
         <a href="#" class="href">посмотреть больше</a>
       </div>
-    </div>
-    <div class="about">
+    </section>
+    <section class="about">
       <div class="about__column">
         <div class="about__logo">
           <img
@@ -133,7 +119,7 @@
         </div>
       </div>
       <div class="about__column">
-        <div class="about__title">Об аукционе</div>
+        <h3 class="about__title">Об аукционе</h3>
         <div class="about__text_block">
           <div class="about__text">
             Здесь вы не встретите очередное пафосное собрание невероятно
@@ -152,9 +138,9 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
   </body>
-  <div class="footer">
+  <footer class="footer">
     <div class="address-footer">
       <a href="tel:+9 999 555 5555" class="href">+9 999 555 5555</a>
       <a href="mailto:info@sobaka.ge" class="href">info@sobaka.ge</a>
@@ -200,5 +186,5 @@
         </li>
       </ul>
     </div>
-  </div>
+  </footer>
 </html>
